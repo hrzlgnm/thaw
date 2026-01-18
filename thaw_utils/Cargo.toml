@@ -16,10 +16,10 @@ rust-version.workspace = true
 leptos = { workspace = true }
 leptos_meta = { workspace = true, optional = true }
 reactive_stores = { workspace = true }
-web-sys = "0.3.72"
+web-sys = "0.3.85"
 wasm-bindgen = { workspace = true }
-cfg-if = "1.0.0"
-chrono = "0.4.38"
+cfg-if = "1.0.4"
+chrono = "0.4.43"
 send_wrapper = "0.6"
 
 [features]
@@ -27,3 +27,4 @@ csr = ["leptos/csr"]
 ssr = ["leptos/ssr", "leptos_meta/ssr"]
 hydrate = ["leptos/hydrate"]
 nightly = ["leptos/nightly"]
+
