@@ -17,4 +17,4 @@ syn = "2.0.74"
 syntect = "5.2.0"
 
 # fix: https://github.com/jhpratt/deranged/issues/17
-deranged = "=0.4.0"
+deranged = "=0.5.8"
